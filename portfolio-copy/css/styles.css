@@ -1,0 +1,164 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #2E79EA;
+}
+
+a:link {
+    text-decoration: none;
+    color: #130c0c;
+}
+
+a:visited {
+    color: #130c0c;
+}
+
+a:hover {
+    color: #EFE5E5;
+}
+  
+
+ul {
+    list-style-type: none;
+    margin: -8px;
+    background-color: #E0DB57;
+    padding: 2rem;
+    text-decoration: none;
+    border: 0.2rem solid #130c0c;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    background-color: #EFE5E5;
+    border: 0.2rem solid #130c0c;
+    border-radius: 100px;
+    /* padding: 10px 30px; */
+    padding: 0.5rem 1.5rem;
+    font-size: 1.3rem;
+    box-shadow: 4px 4px 0px #130c0c;
+    
+    transition: transform .2s;
+    /* transition: all 1s ease-out; */
+}
+
+.li {
+    transition: transform .2s;
+}
+
+.li:hover {
+    transform: translate(0, 5px);
+    box-shadow: none;
+}
+
+
+#li:hover {
+    background-color: #130c0c;
+    color: #EFE5E5;
+    /* outline: 5px solid #EFE5E5; */
+    /* box-shadow: 4px 4px 0px #EFE5E5; */
+    /* outline-offset: -5px; */
+    box-shadow: none;
+
+    transform: translate(0, 5px);
+}
+
+
+h1 {
+    text-align: center;
+    color: #EFE5E5;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    padding: 2rem 1rem 0rem 1rem;
+}
+
+.main-circle {
+    background: #EFE5E5;
+    border-radius: 50%;
+    border: 0.23rem solid #130c0c;
+    width: 23rem;
+    height: 23em;
+    margin: auto;
+    box-shadow: 0px 4px 0px #130c0c;
+
+    transition: transform .2s;
+
+}
+
+.main-circle:hover {
+    background: #E0DB57;
+
+    /* -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);  */
+
+    transform: translate(0, 5px);
+    box-shadow: none;
+}
+
+.me {
+    width: 23rem;
+    height: 23rem;
+    margin: -0.5rem auto;
+}
+
+p {
+    padding: 1rem 6rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.genre-button {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    /* padding: 0 200px; */
+    margin: auto;
+    justify-content: center;
+}
+
+.genre {
+    margin: 0.5rem 0 0 0;
+} 
+
+.rb-button {
+    width: 3rem;
+    height: 3rem;
+    border: 0.2rem solid #130c0c;
+    border-radius: 50%;
+    background-color: #E0DB57;
+    margin: 5rem 2rem;
+}
+
+.rb-button:hover {
+    outline: 5px solid #E0DB57;
+    background-color: #EFE5E5;
+    outline-offset: -5px;
+}
+
+.fa-instagram {
+    color: #130c0c;
+    font-size: 2rem;
+    padding: auto;
+}
+
+.fa-envelope {
+    color: #130c0c;
+    font-size: 2rem;
+    padding: auto;
+}
+
+.fa-linkedin {
+    color: #130c0c;
+    font-size: 2rem;
+    padding: auto;
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+  .pulse {
+    animation-name: pulse;
+    animation-duration: 1s;
+  }
