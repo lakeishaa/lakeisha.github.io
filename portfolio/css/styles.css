@@ -193,7 +193,7 @@ p {
     border: 0.2rem solid #130c0c;
     border-radius: 50%;
     background-color: #E0DB57;
-    margin: 5rem 2rem;
+    margin: 0rem 2rem;
     box-shadow: 0px 4px 0px #130c0c;
 
     transition: transform .2s;
@@ -267,3 +267,47 @@ h1 {
     color: #E0DB57;
 }
 
+@media only screen and (max-width: 1200px) {
+    .li-images{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1038px) {
+    .cv{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 936px) {
+    li#letters.lastname {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 932px) {
+    .misc{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .uiux{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 547px) {
+    .photography{
+        display: none;
+    }
+
+    .design{
+        display: none;
+    }
+
+    .li-images{
+        display: block;
+    }
+}

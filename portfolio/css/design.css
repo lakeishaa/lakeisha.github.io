@@ -1,0 +1,237 @@
+/* html {
+    cursor: url (https://p7.hiclipart.com/preview/623/934/341/computer-mouse-pointer-pixel-clip-art-mouse-cursor-png.jpg);
+} */
+
+.funky-cursor {
+    cursor: url(cursor.png), auto;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #EFE5E5;
+    cursor: url(cursor.png), auto;
+    /* cursor: url(cursor.png), auto;
+    cursor: url(cursor.png), auto; */
+}
+
+a:link {
+    text-decoration: none;
+    color: #130c0c;
+}
+
+a:visited {
+    color: #130c0c;
+}
+
+a:hover {
+    color: #EFE5E5;
+}
+  
+
+
+
+.ul-navigation {
+    list-style-type: none;
+    margin: -8px;
+    background-color: #E0DB57;
+    padding: 1.5rem;
+    text-decoration: none;
+    border: 0.2rem solid #130c0c;
+}
+
+#li {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #EFE5E5;
+    border: 0.2rem solid #130c0c;
+    border-radius: 100px;
+    /* padding: 10px 30px; */
+    margin: 0rem 0.5rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.3rem;
+    box-shadow: 4px 4px 0px #130c0c;
+    
+    transition: transform .2s;
+    /* transition: all 1s ease-out; */
+}
+
+.li-images  { 
+    display: inline-block;
+    text-decoration: none;
+    background-color: #EFE5E5;
+    border: 0.2rem solid #130c0c;
+    border-radius: 100px;
+    /* padding: 10px 30px; */
+    margin: -4.8rem 2rem !important;
+    padding: 0.5rem 0.5rem !important;
+    float: right;
+    font-size: 1.3rem;
+    box-shadow: 4px 4px 0px #130c0c;
+
+    transition: transform .2s;
+}
+
+.li-images:hover {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+
+    background-color: #2E79EA;
+    /* border-color: #EFE5E5; */
+
+    /* -webkit-transform: translate(4px, 4px);
+    -webkit-transform: rotate(360deg);
+    -webkit-transition-duration: 1s;
+    -webkit-transition-delay: now;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite; */
+    
+    animation: rotation 3s infinite linear;
+    animation-delay: 0.5s;
+ 
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) ;
+    }
+  }
+
+li#li:hover {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}
+
+
+#li:hover {
+    background-color: #130c0c;
+    color: #EFE5E5;
+    /* outline: 5px solid #EFE5E5; */
+    /* box-shadow: 4px 4px 0px #EFE5E5; */
+    /* outline-offset: -5px; */
+    box-shadow: none;
+
+    /* transform: translate(0, 5px); */
+}
+
+.logo{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: -5rem; 
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+/* Create three equal columns that floats next to each other */
+
+.row{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #130c0c;
+    width: 100%;
+    height: 100%;
+
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    height: 700px;
+
+    -ms-flex: 33.3%; /* IE10 */
+    flex: 33.3%;
+    max-width: 33.3%;
+
+    /* border: 1px solid #c9b5b5; */
+}
+  
+/* Clear floats after the columns */
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.mywork {
+    border: 0.23rem solid #130c0c;
+    width: 20rem;
+    height: 30rem;
+    margin: auto;
+    background-color: #2E79EA;
+}
+
+.arrow {
+    margin: 2rem 0 0 0;
+}
+
+.arrow-left {
+    float: left;
+    width: 50%;
+    height:3rem;
+    /* border: 1px solid #c9b5b5; */
+
+    /* display: inline-block;
+    text-decoration: none;
+    background-color: #EFE5E5;
+    border: 0.2rem solid #130c0c;
+    border-radius: 100px; */
+}
+
+.arrow-right {
+    float:right;
+    width: 50%;
+    height:3rem;
+    /* border: 1px solid #c9b5b5; */
+    float:right;
+}
+
+.arrow-left-shape{
+
+    height: 2.5rem;
+    width: 70%;
+    margin: 0 1rem 0 0;
+    float: right;
+
+    text-decoration: none;
+    background-color: #E0DB57;
+    border: 0.2rem solid #130c0c;
+    border-radius: 100px;
+    box-shadow: 4px 4px 0px #130c0c;
+}
+
+.arrow-left-shape:hover {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+    background-color: #130c0c;
+    transition: transform .2s;
+}
+
+.arrow-right-shape{
+
+    height: 2.5rem;
+    width: 70%;
+    margin: 0 0 0 1rem;
+    float: left;
+
+    text-decoration: none;
+    background-color: #E0DB57;
+    border: 0.2rem solid #130c0c;
+    border-radius: 100px;
+    box-shadow: 4px 4px 0px #130c0c;
+}
+
+.arrow-right-shape:hover {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+    background-color: #130c0c;
+    transition: transform .2s;
+}

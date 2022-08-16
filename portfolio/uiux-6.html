@@ -1,0 +1,197 @@
+<html lang="en">
+<head>
+    <title>Photography</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uiux-5.css"/>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/d003553457.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="cursor.png" type="image/png"/>
+
+</head>
+
+<div class="funky-cursor">
+<body>
+
+    <ul class="ul-navigation">
+        <!-- <a class="li" href="#home"><li id="li">Home</li></a> -->
+        <a href="portfolio.html"><li id="li">Home</li></a>
+        <a href="design-2.html" class="design"><li id="li">Design</li></a>
+        <a href="photography.html" class="photography"><li id="li">Photography</li></a>
+        <a href="uiux.html" class="uiux"><li id="li">UI/UX</li></a>
+        <a href="#home" class="misc"><li id="li">Miscellaneous</li></a>
+        <a href="#home" class="cv"><li id="li">CV</li></a>
+    
+       
+        
+        <audio id="beep" preload="auto">
+            <source src="./audio/beep.mp3">
+        </audio>
+
+        
+        <!-- <li id="li"><a href="#news">Design</a></li>
+        <li id="li"><a href="#contact">Photography</a></li>
+        <li id="li"><a href="#contact">UI/UX</a></li>        
+        <li id="li"><a href="#about">Miscellaneous</a></li>
+        <li id="li"><a href="#about">CV</a></li> -->
+    </ul>
+
+    <li class="li-images"><img class="logo" src="./images/logo.png" alt=""></li>
+
+    <main>
+
+        <div class="row">
+            <h2 class="h2">Monochrome Project</h2>
+            <ul class="flex-container">
+                <li class="flex-item">
+                    <div class="mywork">
+                        <div id="slideshow-container">
+                            <div class="mySlides fade">
+                                <img class="hair-11" src="./images/project1-1.png" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img class="hair-2" src="./images/project1-2.png" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img class="hair-3" src="./images/project1-3.png" style="width:100%">
+                            </div>
+                            <!-- <div class="mySlides fade">
+                                    <img class="hair-4" src="./images/hair-4.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                    <img class="hair-5" src="./images/hair-5.jpg" style="width:100%">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div id="arrows">
+                        <a class="prev" onclick="plusSlides(-1)">
+                            <img class="prev-arrow" src ="./images/arrow-white-left.png">
+                        </a>
+                        <a class="next" onclick="plusSlides(1)">
+                            <img class="next-arrow" src ="./images/arrow-white-right.png">
+                        </a>
+                    </div>
+                </li>
+
+                <p class="mywork-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit scelerisque porttitor. Vestibulum ornare elit quis augue sollicitudin pellentesque. Phasellus faucibus tempus turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit scelerisque porttitor. Vestibulum ornare elit quis augue sollicitudin pellentesque. Phasellus faucibus tempus turpis.
+                </p>
+            </ul>
+
+
+            <ul class="flex-container">
+                <li class="flex-item">
+                    <div class="mywork">
+                        <div id="slideshow-container">
+                            <div class="mySlides-2 fade">
+                                <img class="hair-11" src="./images/project2-1.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides-2 fade">
+                                <img class="hair-2" src="./images/project2-2.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides-2 fade">
+                                <img class="hair-3" src="./images/project3-3.jpg" style="width:100%">
+                            </div>
+                            <!-- <div class="mySlides fade">
+                                    <img class="hair-4" src="./images/hair-4.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                    <img class="hair-5" src="./images/hair-5.jpg" style="width:100%">
+                            </div> -->
+                        </div>
+                    </div>
+                    <div id="arrows">
+                        <a class="prev" onclick="plusSlides(-1)">
+                            <img class="prev-arrow" src ="./images/arrow-white-left.png">
+                        </a>
+                        <a class="next" onclick="plusSlides(1)">
+                            <img class="next-arrow" src ="./images/arrow-white-right.png">
+                        </a>
+                    </div>
+                </li>
+
+                <p class="mywork-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit scelerisque porttitor. Vestibulum ornare elit quis augue sollicitudin pellentesque. Phasellus faucibus tempus turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit scelerisque porttitor. Vestibulum ornare elit quis augue sollicitudin pellentesque. Phasellus faucibus tempus turpis.
+                </p>
+            </ul>
+        </div>
+
+        
+
+    </main> 
+
+    <script>
+       let slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		let i;
+		let slides = document.getElementsByClassName("mySlides");
+		let dots = document.getElementsByClassName("dot");
+		if (n > slides.length) {slideIndex = 1}    
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";  
+		dots[slideIndex-1].className += " active";
+		}
+
+
+        // SECOND SLIDE
+
+        // let slideIndex = 1;
+		// showSlides(slideIndex);
+		
+		// function plusSlides(n) {
+		// showSlides(slideIndex += n);
+		// }
+		
+		// function currentSlide(n) {
+		// showSlides(slideIndex = n);
+		// }
+		
+		// function showSlides(n) {
+		// let i;
+		// let slides = document.getElementsByClassName("mySlides-2");
+		// let dots = document.getElementsByClassName("dot");
+		// if (n > slides.length) {slideIndex = 1}    
+		// if (n < 1) {slideIndex = slides.length}
+		// for (i = 0; i < slides.length; i++) {
+		// 	slides[i].style.display = "none";  
+		// }
+		// for (i = 0; i < dots.length; i++) {
+		// 	dots[i].className = dots[i].className.replace(" active", "");
+		// }
+		// slides[slideIndex-1].style.display = "block";  
+		// dots[slideIndex-1].className += " active";
+		// }
+    </script>
+
+    <!-- <script src="js/main-3.js"></script> -->
+
+</body>
+</div>
+</html>
+

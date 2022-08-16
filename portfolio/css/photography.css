@@ -132,6 +132,9 @@ li#li:hover {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #130c0c;
+    width: 100%;
+    height: 100%;
 }
 
 .column {
@@ -224,3 +227,4 @@ li#li:hover {
     background-color: #130c0c;
     transition: transform .2s;
 }
+
