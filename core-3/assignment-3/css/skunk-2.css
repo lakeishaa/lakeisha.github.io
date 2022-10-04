@@ -21,6 +21,8 @@ cursor: url(myBall.cur),auto;
 
 .skunk-sign:hover {
   transform: translateX(13px) translateY(0);
+  filter: brightness(2);
+  /* filter: saturate(1); */
   /* transition: transform 0s ease-in-out; */
 }
 
@@ -82,11 +84,12 @@ cursor: url(myBall.cur),auto;
   margin-top: 2em; */
   /* filter: drop-shadow(1px 0px 4px #ffd5d5, 2px 0px 4px #ffd5d5, 3px 0px 4px #ffd5d5, 2px 0px 3px #d42c2c, 2px 3px 15px #d42c2c, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #d42c2c,40px 0vw 200px #d42c2c);` */
   filter: drop-shadow(1px 2px 10px #ffd5d5);
+  filter: drop-shadow(1px 2px 10px #ffd5d5);
   text-shadow: 1px 0px 4px #ffd5d5, 2px 0px 4px #ffd5d5, 3px 0px 4px #ffd5d5, 2px 0px 3px #d42c2c, 2px 3px 15px #d42c2c, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #d42c2c,40px 0vw 200px #d42c2c;
   padding-top: 10px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 5.48rem;
+  margin-top: 5.49rem;
 }
 
 #photo:before {
