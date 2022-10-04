@@ -1,0 +1,115 @@
+body {
+    background-color: #ffffff !important;
+    color: rgb(0, 88, 221);
+    font: monospace;
+    font-family: 'Source Code Pro', monospace;
+}
+
+*, *::before, *::after{
+    -webkit-box-sizing:padding-box;
+    box-sizing:padding-box;
+}
+
+  
+body,
+div,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+}
+  
+.tickerwrapper {
+    /* the outer div */
+    
+    position: relative;
+    top: 30px;
+    left:0%;
+    border: 1px solid #444;
+    background: rgb(0, 88, 221);
+    width: 99.9%;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#scroll-container {
+    border: 3px solid black;
+    overflow: hidden;
+
+    top: 30px;
+    left:0%;
+    border: 2px solid #ffffff;
+    background-color: rgb(0, 88, 221);
+    color: white !important;
+    width: 99.9%;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+#scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+}
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
+
+
+.h1 {
+    padding-left: 10px;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+
+
+  
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto 20%;
+    background-color: #2196F3;
+    /* padding: 10px; */
+  }
+  
+  .grid-item {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 100vh;
+  }

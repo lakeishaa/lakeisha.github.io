@@ -1,0 +1,165 @@
+/* @import url('https://fonts.googleapis.com/css?family=Monoton'); */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+@import url("https://use.typekit.net/roq4zem.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+@-webkit-keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}@keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}
+
+.flex-container {
+  /* white-space: nowrap;
+  display:inline-table; */
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.dots {
+  display: flex;
+  width: 3vw;
+  height: auto;
+  display:table-cell;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  /* padding-top:0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 2em; */
+  /* filter: drop-shadow(1px 0px 4px #ffd5d5, 2px 0px 4px #ffd5d5, 3px 0px 4px #ffd5d5, 2px 0px 3px #d42c2c, 2px 3px 15px #d42c2c, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #d42c2c,40px 0vw 200px #d42c2c);` */
+  filter: drop-shadow(1px 2px 10px #ffd5d5);
+  text-shadow: 1px 0px 4px #ffd5d5, 2px 0px 4px #ffd5d5, 3px 0px 4px #ffd5d5, 2px 0px 3px #d42c2c, 2px 3px 15px #d42c2c, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #d42c2c,40px 0vw 200px #d42c2c;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: -2.2rem;
+}
+
+html, body {
+  background-color: black;
+  /* font-family: 'VT323', monospace; */
+  text-align: center;
+  font-family: lores-9-wide-bold-alt-oaklan,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -2.1em;
+}
+
+ul.letters-ul{
+  padding-top: 40px;
+  padding-right: 30px;
+
+}
+
+.letters-ul {
+  /* border: hsla(216, 82%, 55%, 0); */
+  padding: 10px;
+  border: none;
+  justify-content: auto;
+  text-align: center;
+  font-weight: 400;
+  font-size: 180px;
+  text-align: center;
+  /* color: rgb(202, 46, 46); */
+  color: #ffffff;
+  /* color: black; */
+  text-shadow: 1px 0px 4px #ffd5d5, 2px 0px 4px #ffd5d5, 3px 0px 4px #ffd5d5, 2px 0px 3px #d42c2c, 2px 3px 15px #d42c2c, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #d42c2c,40px 0vw 200px #d42c2c;
+
+}
+
+#letters {
+  display: inline-block;
+  text-decoration: none;
+  /* padding: 0.5rem 1.5rem; */
+
+  text-align: center;
+  /* font-size: 2.3rem;
+  padding: 2rem 0rem 0rem 0rem; */
+      
+  transition: transform 0s;
+}
+   
+#letters:hover {
+  transform: translate(0, -35px);
+  color: rgb(247, 43, 7);
+  /* color: black; */
+  text-shadow:  2px 3px 15px #d4452c, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #d42c2c,40px 0vw 200px #d42c2c;
+
+}
+
+#h2{
+  font-size: 90px;
+  text-align: center;
+  /* font-family: 'Dawning of a New Day', cursive; */
+  font-family: 'WindSong', cursive;
+  /* font-family: 'Meow Script', cursive; */
+  color: #d42c2c;
+  text-shadow: 1px 0px 4px #ee976e, 2px 0px 4px #ee976e, 3px 0px 4px #ee976e, 2px 0px 3px #d42c2c, 2px 3px 15px #d42c2c, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #d42c2c,40px 0vw 200px #d42c2c;
+  margin-top: -270px;
+  letter-spacing: 0 !important;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.flicker-slow{
+  display:table-cell;
+  animation: flicker 3s linear infinite;
+}
+
+@keyframes flicker {
+  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+  //text-shadow: none;
+  opacity: .99;
+          
+  }
+  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+  opacity: 0.4;
+  }
+}
+
+
+
+
+
+.scaleImage {
+  animation: scaling-image-animation 3s ease;
+}
+
+@keyframes scaling-image-animation {
+  /* 0% {
+    opacity: 0%;
+  }
+  10% {
+    filter: brightness(0);
+  }
+  25%{
+    opacity: 70%;
+  }
+  50% {
+    opacity: 25%;
+  }
+  100% {
+    opacity: 100%;
+  } */
+
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    opacity: .05;
+            
+    }
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+    opacity: 0.4;
+    }
+
+}
