@@ -3,15 +3,6 @@ body {
   margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
 .skunk-sign {
   width: 80%;
   height: 150%;
@@ -95,7 +86,7 @@ cursor: url(myBall.cur),auto;
   padding-top: 10px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 5rem;
+  margin-top: 5.48rem;
 }
 
 #photo:before {

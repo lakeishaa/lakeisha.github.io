@@ -41,7 +41,8 @@ h2{
 
 span {
     color: rgb(236, 46, 20);
-    text-shadow: 0 0 40px #e65845 !important;
+    text-shadow: 0 0 40px #fa7564 !important;
+    /* text-shadow: 1px 0px 4px #d42c2cce, 2px 0px 4px #ffd5d5b4, 3px 0px 4px #ffd5d5, 2px 0px 3px #d42c2c, 2px 3px 15px #ffd5d5, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #f17759cb,40px 0vw 200px #f17759cb !important; */
     font-size: 25vw;
 }
 
