@@ -6,6 +6,10 @@ img {
     margin-right: auto;
 }
 
+#img-cover{
+    margin-top: 18pt;
+}
+
 body{
     font-family: 'Mrs Saint Delafield', cursive;
     font-family: 'Roboto Mono', monospace;}
