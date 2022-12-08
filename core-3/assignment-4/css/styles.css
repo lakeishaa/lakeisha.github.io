@@ -1,0 +1,74 @@
+
+img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-family: 'Roboto Mono', monospace;}
+
+.italic {
+    font-style: italic;
+}
+
+
+h2 {
+    display: none;
+}
+
+h3{
+    margin-top: 65pt;
+    margin-left: 30pt;
+    font-size: 10pt;
+}
+
+.preface{
+    margin-top: 65pt;
+    margin-left: 30pt;
+    font-size: 15pt;
+}
+
+.pre {
+    font-style: regular !important;
+    color: rgb(80, 80, 80);
+}
+
+.description{
+    margin-top: 65pt;
+    margin-left: 30pt;
+    font-size: 11pt;
+    font-style: bold;
+}
+
+.description-2{
+    margin-top: 65pt;
+    text-align: center;
+}
+
+.intro {
+    text-align: justify;
+}
+
+.preface {
+    font-style: italic;
+}
+
+h4 {
+    margin-left: 30pt;
+    margin-right: 30pt;
+}
+
+p {
+    text-align: center;
+    margin-left: 30pt;
+    margin-right: 30pt;
+    font-size: 11pt;
+    /* text-align: justify; */
+    text-justify: inter-word;
+
+.intro {
+    text-align: justify!important;
+}

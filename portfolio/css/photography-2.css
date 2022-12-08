@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Source Code Pro', monospace;
-    background-color: #EFE5E5;
+    /* background-color: #EFE5E5; */
     cursor: url(cursor.png), auto;
     /* cursor: url(cursor.png), auto;
     cursor: url(cursor.png), auto; */
@@ -228,14 +228,75 @@ li#li:hover {
     transition: transform .2s;
 }
 
+.h2 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border: 0.2rem solid #EFE5E5;
+    border-radius: 100px;
+    margin: 3rem 50% 0 50%;
+    padding: 0.5rem 11rem 0.5rem 11rem;
+    box-shadow: 4px 4px 0px #EFE5E5;
+    white-space: nowrap;
 
-div.container {
-    column-count: 4; 
-    margin: 0 auto;
-    padding: 20px;
+    transition: transform .2s;
+    transform: translateX(-50%);
+
+    color: #EFE5E5;
+    background-color: #130c0c;
 }
 
-img {
-    max-width: 200px;
+.h2:hover{
+    background-color: #E0DB57;
+    color: #130c0c;
+    /* transform: translateX(-46%); */
+    /* transform: translate(46%, 46%); */
+    transform: translate(-175px, 4px);
+    box-shadow: none;
+    border: 0.2rem solid #130c0c;
+}
+
+div.container {
+    column-count: 3; 
+	transform: translate (-50%, -50%);
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 20px;
+    
+}
+
+
+div.gallery {
+    /* border: 1px solid #ccc; */
+    display:flex;
+    /* text-align: center; */
+    padding: 10px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    border: 3px black solid;
+    max-width: 320px;
     max-height: auto; 
+    margin: auto;
+    justify-content: center;
+    
+  }
+
+
+@media only screen and (max-width: 1215px) {
+    div.container {
+    column-count: 2; 
+    
+}
+
+@media only screen and (max-width: 809px) {
+    div.container {
+    column-count: 1; 
+    
 }
