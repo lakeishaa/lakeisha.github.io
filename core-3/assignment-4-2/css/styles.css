@@ -1,0 +1,33 @@
+.parallax {
+
+  /* The Image Used */
+  background-image: url("https://lodev.org/cgtutor/images/siercardraw2.gif");
+
+  /* Full height */
+  min-height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-1 {
+  height:650px;
+  /* background-color:red; */
+}
+
+.gue-1 {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.loki-2 {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
