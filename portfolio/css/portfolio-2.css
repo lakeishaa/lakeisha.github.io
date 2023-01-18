@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Source Code Pro', monospace;
-    /* background-color: #EFE5E5; */
+    background-color: #EFE5E5;
     cursor: url(cursor.png), auto;
     /* cursor: url(cursor.png), auto;
     cursor: url(cursor.png), auto; */
@@ -34,9 +34,10 @@ a:hover {
     list-style-type: none;
     margin: -8px;
     background-color: rgb(0, 88, 221);
-    padding: 1.5rem;
+    padding: 1.4rem;
+    padding-top: 1.2rem !important;
     text-decoration: none;
-    border: 0.2rem solid white;
+    border: 0.2rem solid black;
 }
 
 #li {
@@ -138,11 +139,11 @@ h1:hover {
 }
 
 .main-circle {
-    background: #EFE5E5;
+    background: white;
     border-radius: 50%;
     border: 0.23rem solid #130c0c;
-    width: 23rem;
-    height: 23em;
+    width: 20rem;
+    height: 20em;
     margin: auto;
     box-shadow: 0px 4px 0px #130c0c;
     cursor: url(./images/cursor.png), auto;
@@ -163,8 +164,8 @@ h1:hover {
 }
 
 .me {
-    width: 23rem;
-    height: 23rem;
+    width: 20rem;
+    height: 20rem;
     margin: -0.5rem auto;
     cursor: url(/images/cursor.png), auto;
 }

@@ -33,7 +33,7 @@ a:hover {
 .ul-navigation {
     list-style-type: none;
     margin: -8px;
-    background-color: #E0DB57;
+    background-color: rgb(0, 88, 221);
     padding: 1.5rem;
     text-decoration: none;
     border: 0.2rem solid #130c0c;
